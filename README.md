@@ -34,6 +34,7 @@ conda activate DISTRA
 pip install pytorch
 pip install scanpy
 pip install awkward
+pip install transformers==4.46.3
 
 # Clone DISTRA
 git clone https://github.com/skybluewhy/DISTRA.git

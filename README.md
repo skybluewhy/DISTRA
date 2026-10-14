@@ -43,7 +43,10 @@ cd DISTRA
 # Data
 The data used in the paper were collected from public data sets: https://www.10xgenomics.com/datasets and https://www.covid19cellatlas.org/index.patient.html.
 
+
 # Usage of DISTRA
+
+Prepare the 10X dataset (https://drive.google.com/drive/folders/1qB2a3x7wiDl4azMXiUEIZvKvESdtRISr?usp=sharing) in <BASE_FOLDER>/data/10X/.
 
 Training DISTRA:
 ```

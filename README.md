@@ -1,4 +1,4 @@
-
+## DISTRA
 **DISTRA**: **DI**Sentangled **TR**anscriptomic‑TCR **A**rchitecture — clonality‑aware multi‑space disentanglement and selective TCR fusion for dissecting T‑cell states from paired single‑cell TCR and transcriptome data.
 
 DISTRA is an RNA‑centered variational deep‑learning framework for integrating paired scRNA‑seq and scTCR‑seq data. Instead of fusing RNA and TCR features into one shared latent space, DISTRA disentangles transcriptomic variation into four biologically interpretable subspaces: **batch‑associated**, **cell‑identity‑associated**, **clonality‑associated**, and **residual variation**. TCR sequence information is selectively fused *only to the clonality‑associated subspace*, avoiding unwarranted global cross‑modal assumptions.

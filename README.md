@@ -58,11 +58,13 @@ Get embeddings of DISTRA:
 python get_emb_10X.py
 ```
 
+Prepare the tcr-bert pretrained model (https://drive.google.com/drive/folders/1qB2a3x7wiDl4azMXiUEIZvKvESdtRISr?usp=sharing).
+
 Training DISTRA by fusing TCR sequence information:
 ```
 python train_10X_fused_tcr_info.py
 ```
 Get embeddings of DISTRA:
 ```
-python get_emb_10X_fused_tcr_info.py
+python get_emb_10X_fused_tcr.py
 ```
